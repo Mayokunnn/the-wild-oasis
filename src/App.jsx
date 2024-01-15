@@ -20,7 +20,7 @@ function App() {
             <div>
               <Heading as="h2">Check in and out</Heading>
               <Button
-                size="medium"
+                size="small"
                 variation="secondary"
                 onClick={() => alert("Checked in")}
               >
