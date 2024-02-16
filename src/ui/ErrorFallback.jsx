@@ -1,3 +1,4 @@
+import { Children } from "react";
 import styled from "styled-components";
 
 const StyledErrorFallback = styled.main`
@@ -29,3 +30,9 @@ const Box = styled.div`
     color: var(--color-grey-500);
   }
 `;
+
+function StyledErrorFallback({ children }) {
+  return <Box>{children}</Box>;
+}
+
+export default StyledErrorFallback;
